@@ -1,0 +1,705 @@
+#bodyheader{ 
+	height:85vh;
+	opacity:0.7;
+	background-image : url("Hogwarts.jpg");
+	background-size:cover;
+	background-position:center;
+	margin-top:0px;
+	background-attachment:fixed;
+}
+            
+                                                         /* Horizontal List */
+  
+nav ul{
+	list-style:none;
+	/*position:absolute;*/
+	 margin: 0px 8px 8px 0px;
+	top:50px;
+	text-align:center;
+	/*margin-left:26%*/
+}
+
+nav ul li{
+	display:inline-block;
+	 margin-top:25px;
+	text-decoration:bolder;
+	font-size:20px;
+	margin-right:26px;
+}
+
+nav ul li a{
+	color:white;
+	text-decoration:none;
+	transition:color 0.5s, border-bottom 4s;
+}
+
+nav ul li a:hover{
+	color:lightgrey;
+	text-decoration:underline;
+}
+
+
+/* Hide Hamburger */
+#hamnav label, #hamburger { display: none; }
+  
+                                                            /* Icon list */
+
+#School{
+	font-size:35px;
+	text-align:center;
+	margin-top: 9vh;
+	font-weight: 700;
+    margin-bottom: 0.5rem;
+	color:Yellow;	
+}
+
+.section-heading{
+	width:auto;
+	padding:20px 10px 10px;
+	margin:8px auto;
+	font-weight:400;
+}
+.section-heading span{
+	color:#2857a4;
+	width:auto;
+	padding-top:10px;
+	margin-right:0.6rem;
+	font-size:40px;
+}
+
+.skillname{
+	color:white;
+	font-size:1rem;
+	margin-left:20px;
+	margin-top:2px;	
+}
+#bootstrap{
+margin-left:15px;
+margin-top:2px;		
+font-size:0.9rem;	
+}
+
+.skillname span{
+	margin:0;
+}
+
+                                                              /* Icon Bar */
+							
+							
+	.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}						
+
+#name{
+	font-size:40px;
+	text-align:center;
+	margin-top: 20vh;
+	font-weight: 700;
+    margin-bottom: 0.5rem;
+	color:white;	
+}
+
+.erasing-animation {
+    animation-name: erasing;
+    animation-duration: 1.8s;
+}
+
+@keyframes erasing {
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(180deg);}
+    60% {transform: rotate(180deg);}
+    70% {transform: rotate(0deg);}
+    100% {transform: rotate(0deg);}
+} 
+    
+/***this is the pencil writing animation*****/
+.writing-animation {
+    animation-name: writting;    
+    animation-duration: 4s; 
+}
+
+@keyframes writting {
+    0%  {transform: translate(0px,0px);}
+    2%  {transform: translate(30px,-40px);}
+    4%  {transform: translate(0px,0px);}
+    6%  {transform: translate(30px,-40px);}
+    8% {transform: translate(0px,0px);}
+    10% {transform: translate(30px,-40px);}
+    12% {transform: translate(0px,0px);}
+    14% {transform: translate(30px,-40px);}
+    16% {transform: translate(0px,0px);}
+    18% {transform: translate(30px,-40px);}
+    20% {transform: translate(0px,0px);}
+    22% {transform: translate(30px,-40px);}
+    24% {transform: translate(0px,0px);}
+    26% {transform: translate(30px,-40px);}
+    28% {transform: translate(0px,0px);}
+    30% {transform: translate(30px,-40px);}
+    32% {transform: translate(0px,0px);}
+    34% {transform: translate(30px,-40px);}
+    36% {transform: translate(0px,0px);}
+    38% {transform: translate(30px,-40px);}
+    40% {transform: translate(0px,0px);}
+    42% {transform: translate(30px,-40px);}
+    44% {transform: translate(0px,0px);}
+    46% {transform: translate(30px,-40px);}
+    48% {transform: translate(0px,0px);}
+    50% {transform: translate(30px,-40px);}
+    52% {transform: translate(0px,0px);}
+    54% {transform: translate(30px,-40px);}
+    56% {transform: translate(0px,0px);}
+    58% {transform: translate(30px,-40px);}
+    60% {transform: translate(0px,0px);}
+    62% {transform: translate(30px,-40px);}
+    64% {transform: translate(0px,0px);}
+    66% {transform: translate(30px,-40px);}
+    68%{transform: translate(0px,0px);}
+  
+    70% {transform: translate(30px,-40px);}
+    72% {transform: translate(0px,0px);}
+    74% {transform: translate(30px,-40px);}
+    76% {transform: translate(0px,0px);}
+    78% {transform: translate(30px,-40px);}
+    80% {transform: translate(0px,0px);}
+    82% {transform: translate(30px,-40px);}
+    84% {transform: translate(0px,0px);}
+    86% {transform: translate(30px,-40px);}
+    88% {transform: translate(0px,0px);}
+    90% {transform: translate(30px,-40px);}
+    92% {transform: translate(0px,0px);}
+    94% {transform: translate(30px,-40px);}
+    96% {transform: translate(0px,0px);}
+    98% {transform: translate(30px,-40px);}
+    100% {transform: translate(0px,0px);}
+    
+    
+}
+
+
+                                                                                /*About*/
+
+#aboutHeading{
+	text-align:center;
+	font-weight:500;
+	font-size:70px;	
+}
+
+#aboutImage{
+	width:600px;
+	margin-left:90px;
+	height:650px;
+	float:left;	
+	margin-right:90px;
+}
+
+#aboutText{
+	font-size:25px;
+	margin-right:100px;
+	text-align:centre;
+	font-family: "Times New Roman", Times, serif;
+	 font-style: italic;
+}
+
+#desc{
+	margin-left:70px;
+	text-align:left;	
+}
+#button {
+  width: 110px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: black;
+  color: black;
+  margin: 11px;
+  color:white;
+}
+
+#button:hover span {
+  padding-right: 25px;
+}
+
+#portfolio-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 50px;
+    margin-bottom: 2%;
+	margin-top:-30px;
+    justify-content: space-around;
+}
+
+.portfolio-image-container {
+    max-width: 300px;
+    max-height:220px;
+    margin: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+	float:down;
+}
+
+#imageCourses{
+	float:down;
+}
+
+.courseName{
+	text-align:center;
+	
+}
+.coHead{
+	font-size:35px;
+	font-style:bold;
+	color:Green;
+	font-weight:30;
+}
+
+
+.portfolio-image-container img {
+    width: 100%;
+    height: 100%;
+	
+}
+
+.portfolio-details {
+    /* display: none; */
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+    /* background-color: white; */
+}
+.portfolio-image-container:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+.portfolio-image-container:hover .portfolio-details {
+    background-color: #80808078;
+    /* display: block; */
+    color: white;
+}
+
+
+
+                                                                         /*Reviews*/
+											 
+#Reviews{
+	margin-top:100px;	
+}
+#ReviewsHeading{
+	text-align:center;
+	font-weight:500;
+	font-size:70px;	
+}
+.testimonial-container {
+  background-color: #476ce4;
+  color: #fff;
+  border-radius: 15px;
+  margin: 20px auto;
+  padding: 50px 80px;
+  max-width: 650px;
+  position: relative;
+}
+
+.fa-quote {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 28px;
+  position: absolute;
+  top: 70px;
+}
+
+.fa-quote-right {
+  left: 40px;
+}
+
+.fa-quote-left {
+  right: 40px;
+}
+
+.testimonial {
+  line-height: 28px;
+  text-align: justify;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user .user-image {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+}
+
+.user .user-details {
+  margin-left: 10px;
+}
+
+.user .username {
+  margin: 0;
+}
+
+.user .role {
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  background-color: #fff;
+  height: 4px;
+  width: 100%;
+  animation: grow 10s linear infinite;
+  transform-origin: left;
+}
+
+@keyframes grow {
+  0% {
+    transform: scaleX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-container {
+    padding: 20px 30px;
+  }
+  
+                                                    /*FAQ*/
+#QuestionsHeading{
+	text-align:center;
+	font-weight:500;
+	font-size:70px;
+	margin-left:100px;
+	
+}
+  .fa-quote {
+    display: none;
+  }
+}
+
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq {
+  background-color: transparent;
+  border: 1px solid #9fa4a8;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.faq.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq.active::before,
+.faq.active::after {
+  content: '\f075';
+  font-family: 'Font Awesome 5 Free';
+  color: #2ecc71;
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+}
+
+.faq.active::before {
+  color: #3498db;
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}
+
+.faq-title {
+  margin: 0 35px 0 0;
+}
+
+.faq-text {
+  display: none;
+  margin: 30px 0 0;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.faq-toggle {
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 20px;
+  width: 30px;
+}
+
+.faq-toggle:focus {
+  outline: 0;
+}
+
+.faq-toggle .fa-times {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+  color: #fff;
+  display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
+
+.faq.active .faq-toggle {
+  background-color: #9fa4a8;
+}
+
+                                                                                   /*contact*/
+
+
+#contactHeading{
+	text-align:center;
+	font-weight:500;
+	font-size:70px;
+	
+	
+}
+ #contact {
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    /*background-color: #13386fe0;*/
+    color: white;
+    padding-bottom: 40px;
+	margin-top:20px;
+}
+
+#contact h1,
+#contact h1 span {
+    color: white;
+}
+
+#contact-form {
+    margin-left: 20%;
+}
+
+#contact-container {
+    display: flex;
+}
+
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+}
+
+#my-details-container h3 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+#contact-form-container {
+    width: 50%;
+}
+
+#my-details-container p {
+    color: #d9dcdd;
+    font-size: 0.9rem;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+}
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+    font-size: 0.95rem;
+}
+
+.my-details-info-container i {
+    color: white;
+}
+
+.my-details-icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    /*#2857a4*/
+    color: var(--contact-light-text-color);
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+#contact-form button[type="submit"] {
+    background: transparent;
+    /*#1a1a1a;*/
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+#contact .social-icons li a i {
+
+    font-size: 1rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#contactImage{
+	height:200px;
+	width:200px;
+	margin-left:400px;	
+	margin-top:-200px;
+	border-radius: 50%;
+}
+
+
+
+@media(min-width: 1200px){
+    h1 {
+        font-size: 5rem;
+    }
+    .fas {
+        font-size: 2rem;
+    }
+	#school{
+		font-size:30px;
+	}
+}
+@media(max-width: 800px){
+    .container {
+        padding: 0 1rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+	#school{
+		font-size:20px;
+	}
+	#Reviews{
+	margin-top:200px;
+    }
+   #aboutImage{
+	width:500px;
+	margin-left:10px;
+	height:600px;
+	float:left;	
+	margin-right:80px;	
+}
+}
+@media(max-width: 500px){
+    h1 {
+        font-size: 2.5 rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+	#school{
+		font-size:15px;
+	}
+	#Reviews{
+	margin-top:100px;	
+}
+#aboutImage{
+	width:300px;
+	margin-left:10px;
+	height:550px;
+	float:left;	
+	margin-right:80px;
+}
+}
